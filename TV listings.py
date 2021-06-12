@@ -7,7 +7,7 @@ pages = ['&page=1', '&page=2', '&page=3']
 count = 0
 todays_shows = []
 our_shows = []
-favourites = ['Superman & Lois', 'Emmerdale', 'WWE Raw']
+favourites = ['Superman & Lois', 'Greys Anatomy', 'Legacies', 'Loki']
 
 for items in pages:
 
@@ -28,8 +28,7 @@ for items in pages:
         y = i["name"]
         if y in favourites:
             todays_shows.append(y)
+        
 
-  
-print(todays_shows)
 
 
